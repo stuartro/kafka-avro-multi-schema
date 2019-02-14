@@ -1,4 +1,4 @@
-//package com.github.amitjn1;
+package com.github.amitjn1;
 
 import io.confluent.kafka.serializers.KafkaAvroSerializer;
 import org.apache.avro.Schema;
@@ -6,6 +6,7 @@ import org.apache.avro.generic.GenericData;
 import org.apache.avro.generic.GenericRecord;
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
+import com.testing.entity.*;
 
 import java.util.Properties;
 

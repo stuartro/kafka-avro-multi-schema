@@ -1,6 +1,6 @@
 {
      "type": "record",
-     "namespace": "",
+     "namespace": "com.testing.entity",
      "name": "User",
      "version": "1",
      "fields": [
